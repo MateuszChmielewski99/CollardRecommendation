@@ -1,3 +1,4 @@
 .env
 venv/Lib
 __pycache__
+.idea
