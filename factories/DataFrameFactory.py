@@ -6,7 +6,7 @@ class DataFrameFactory:
     def create_data_frames_array(self, first: bool, second: bool, third: bool):
 
         if not first and not second and not third:
-            return [df]
+            return [df.copy()]
 
         if first and not second and not third:
             return self.__get_divided_by_single_genre(genres_columns[0])
